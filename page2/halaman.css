@@ -1,0 +1,49 @@
+*,
+html{
+    padding: 0%; /* Mengatur padding menjadi 0% untuk semua elemen HTML */
+    margin: 0%; /* Mengatur margin menjadi 0% untuk semua elemen HTML */
+}
+
+.card {
+    width: 300px; /* Mengatur lebar card */
+    border-radius: 20px; /* Memberikan sudut melengkung pada card */
+    margin: 20px auto; /* Memberikan margin 20px secara vertikal dan auto secara horizontal */
+    background-color: #333; /* Mengatur warna latar belakang card */
+    width: 50%; /* Mengatur lebar card menjadi 50% dari lebar viewport */
+}
+  
+body{
+    background-image: url(gunung.jpg); /* Mengatur gambar latar belakang body */
+    background-size: cover; /* Mengisi seluruh area body dengan gambar */
+}
+
+.card-header {
+    background-color: skyblue; /* Mengatur warna latar belakang bagian header card */
+    color: #333; /* Mengatur warna teks pada bagian header card */
+    padding: 10px; /* Memberikan padding pada bagian header card */
+    border-top-left-radius: 20px; /* Memberikan sudut melengkung pada sisi kiri atas bagian header card */
+    border-top-right-radius: 20px; /* Memberikan sudut melengkung pada sisi kanan atas bagian header card */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Mengatur jenis font pada bagian header card */
+}
+  
+.card-header h2 {
+    margin: 0; /* Mengatur margin menjadi 0 pada judul h2 di dalam bagian header card */
+}
+  
+.card-body {
+    padding: 20px; /* Memberikan padding pada bagian body card */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Mengatur jenis font pada bagian body card */
+    color: whitesmoke; /* Mengatur warna teks pada bagian body card */
+}
+  
+.card-body p {
+    margin-bottom: 10px; /* Memberikan margin bawah sebesar 10px pada paragraf di dalam bagian body card */
+}
+  
+.card-body ol {
+    padding-left: 20px; /* Memberikan padding kiri sebesar 20px pada daftar terurut di dalam bagian body card */
+}
+  
+.card-body ol li {
+    margin-bottom: 5px; /* Memberikan margin bawah sebesar 5px pada setiap item daftar terurut di dalam bagian body card */
+}

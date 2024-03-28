@@ -1,0 +1,109 @@
+*,
+html{
+    padding: 0%; /* Mengatur padding menjadi 0% untuk semua elemen HTML */
+    margin: 0%; /* Mengatur margin menjadi 0% untuk semua elemen HTML */
+}
+
+body{
+    display: flex; /* Mengatur elemen body menjadi flex container */
+    justify-content: center; /* Mengatur konten secara horizontal di tengah halaman */
+    align-items: center; /* Mengatur konten secara vertikal di tengah halaman */
+    min-height: 100vh; /* Mengatur tinggi minimum body menjadi 100% tinggi viewport */
+    background-color: gray; /* Mengatur warna latar belakang body */
+    margin: 0; /* Mengatur margin body menjadi 0 */
+    padding: 0; /* Mengatur padding body menjadi 0 */
+    background-image:url('assets2/84633e31050681363f0c95313aebcb44.jpg'); /* Mengatur gambar latar belakang body */
+    background-size: cover; /* Untuk mengisi seluruh area dengan gambar */
+    background-position: 0%; /* Mengatur posisi latar belakang body */
+}
+
+.container{
+    display: flex; /* Mengatur elemen container menjadi flex container */
+    justify-content: center; /* Mengatur konten secara horizontal di tengah container */
+    align-items: center; /* Mengatur konten secara vertikal di tengah container */
+    width: 25%; /* Mengatur lebar container */
+    border-radius: 45px; /* Memberikan sudut melengkung pada container */
+    border: 1px solid #333; /* Mengatur border container */
+    background-color: rgba(31, 4, 4, 0.141); /* Mengatur warna latar belakang container dengan transparansi */
+    margin: 20px; /* Memberikan margin pada container */
+}
+
+.div-login{
+    display: flex; /* Mengatur elemen div-login menjadi flex container */
+    justify-content: center; /* Mengatur konten secara horizontal di tengah div-login */
+    align-items: center; /* Mengatur konten secara vertikal di tengah div-login */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Mengatur jenis font */
+}
+
+.form-login{
+    width: 200px; /* Mengatur lebar form-login */
+    margin: 60px auto; /* Memberikan margin pada form-login */
+    padding: 10px; /* Memberikan padding pada form-login */
+}
+
+form label{
+    display: block; /* Mengatur label agar tampil sebagai blok */
+    font-size: 16px; /* Mengatur ukuran font label */
+    font-weight: 600; /* Mengatur ketebalan font label */
+    padding: 5px; /* Memberikan padding pada label */
+}
+
+input{
+    width: 100%; /* Mengatur lebar input menjadi 100% */
+    margin: 2px; /* Memberikan margin pada input */
+    border: none; /* Menghilangkan border input */
+    outline: none; /* Menghilangkan outline input */
+    padding: 8px; /* Memberikan padding pada input */
+    border-radius: 20px; /* Memberikan sudut melengkung pada input */
+    border: 1px solid gray; /* Mengatur border input */
+}
+
+button{
+    border: none; /* Menghilangkan border button */
+    outline: none; /* Menghilangkan outline button */
+    padding: 8px; /* Memberikan padding pada button */
+    width: 100px; /* Mengatur lebar button */
+    color: whitesmoke; /* Mengatur warna teks pada button */
+    font-size: 16px; /* Mengatur ukuran font pada button */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
+    margin-top: 20px; /* Memberikan margin atas pada button */
+    border-radius: 10px; /* Memberikan sudut melengkung pada button */
+    background: black; /* Mengatur warna latar belakang button */
+}
+
+button:hover{
+    background-color: #333; /* Mengatur warna latar belakang button saat dihover */
+    transition: 0.5 ease-in-out; /* Efek transisi saat dihover */
+}
+
+.h1{
+    display: flex; /* Mengatur elemen h1 menjadi flex container */
+    justify-content: center; /* Mengatur konten secara horizontal di tengah h1 */
+    padding: 10px; /* Memberikan padding pada h1 */
+    color: black; /* Mengatur warna teks pada h1 */
+}
+
+.label{
+    color: black; /* Mengatur warna teks pada label */
+}
+
+.container-button{
+    display: flex; /* Mengatur elemen container-button menjadi flex container */
+    justify-content: center; /* Mengatur konten secara horizontal di tengah container-button */
+}
+
+.background{
+    margin: 0%; /* Memberikan margin 0% pada background */
+}
+
+.Username{
+    background-color: #333; /* Mengatur warna latar belakang input username */
+    border: black; /* Mengatur border input username */
+    color: whitesmoke; /* Mengatur warna teks pada input username */
+}
+
+.password{
+    background-color: #333; /* Mengatur warna latar belakang input password */
+    border: black; /* Mengatur border input password */
+    color: whitesmoke; /* Mengatur warna teks pada input password */
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Tautan ke file CSS untuk gaya halaman -->
+    <title>PDW</title> <!-- Judul halaman -->
+</head>
+<body >
+
+ <!-- navbar -->
+    <div class="container-navbar"> <!-- Container untuk navbar -->
+        <ul class="ul-navbar"> <!-- Daftar navigasi -->
+            <a href="pages/index.html"><button id="loginButton"  class="button-navbar">Login</button></a> <!-- Tombol login -->
+            <a href="html"><button class="button-navbar">About Me</button></a> <!-- Tombol About Me -->
+            <a href="html"><button class="button-navbar">Contact Me</button></a> <!-- Tombol Contact Me -->
+        </ul>
+    </div>
+    <script>  //Script Untuk Alert
+        var loginButton = document.getElementById('loginButton');    // Mendapatkan tombol Login
+        loginButton.addEventListener('click', function() {   // Menambahkan event listener untuk saat tombol Login diklik
+            alert('Masuk Ke Form Login!');  // Menampilkan alert saat tombol Login diklik
+        });
+    </script>
+ <!-- navbar end -->
+
+
+ <!-- content -->
+ <body> <!-- Duplikat tag <body> yang tidak diperlukan -->
+    <div class="card">
+      <div class="card-header">
+        <h2>HELLO WORLD</h2> <!-- Judul konten -->
+      </div>
+      <div class="card-body">
+        <p>Dalam era digital yang semakin maju, memiliki pengetahuan dasar tentang cara membangun dan mendesain situs web menjadi semakin penting. Situs web tidak hanya menjadi alat untuk berbagi informasi, tetapi juga merupakan sarana untuk berinteraksi dengan audiens Anda, mempromosikan bisnis, atau bahkan membangun identitas merek secara online.</p> <!-- Konten teks -->
+      </div>
+    </div>
+  </body>
+ <!-- content end -->
+
+
+ <!-- footer -->
+    <div class="container-footer"> <!-- Container untuk footer -->
+        <p>2024 Situs Ini. Dibuat dengan <span class="heart">&hearts;</span> oleh Khaiqal Satrio.</p> <!-- Teks footer -->
+    </div>
+ <!-- footer end -->
+</body>
+</html>

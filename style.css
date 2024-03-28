@@ -1,0 +1,103 @@
+*,
+html{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url('assets/gambar3.jpg'); /* Mengatur gambar latar belakang */
+  margin: 0;
+  padding: 0;
+  background-size: cover; /* Untuk mengisi seluruh area dengan gambar */
+}
+
+/* Navbar */
+.container-navbar{
+  display: flex; /* Menjadikan container-navbar sebagai flex container */
+  justify-content: center; /* Mengatur konten navbar agar terpusat secara horizontal */
+  align-items: center; /* Mengatur konten navbar agar terpusat secara vertikal */
+  background-color: rgba(31, 4, 4, 0.141); /* Mengatur warna latar belakang dengan transparansi */
+}
+
+.ul-navbar{
+  display: flex; /* Menjadikan ul-navbar sebagai flex container */
+  justify-content: center; /* Mengatur konten navbar agar terpusat secara horizontal */
+  align-items: center; /* Mengatur konten navbar agar terpusat secara vertikal */
+  margin: 10px; /* Memberikan margin */
+}
+
+.button-navbar{
+  margin: 5px; /* Memberikan margin */
+  border-radius: 5px; /* Memberikan sudut melengkung pada tombol */
+  background-color: black; /* Mengatur warna latar belakang tombol */
+  color: whitesmoke; /* Mengatur warna teks pada tombol */
+  height: 4vh; /* Mengatur tinggi tombol */
+  width: 15vh; /* Mengatur lebar tombol */
+}
+
+.button-navbar:hover{
+  background-color: gray; /* Mengatur warna latar belakang tombol saat dihover */
+  transition: 0.5 ease-in-out; /* Efek transisi saat dihover */
+}
+/* Navbar End */
+
+
+/* Content */
+.card {
+  width: 300px; /* Mengatur lebar card */
+  border-radius: 20px; /* Memberikan sudut melengkung pada card */
+  border: 1px solid #333; /* Mengatur border card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Memberikan bayangan card */
+  margin: 10% auto; /* Memberikan margin dan mengatur posisi card */
+  width: 50%; /* Mengatur lebar card */
+}
+
+.card-header {
+  background-color: #0066cc; /* Mengatur warna latar belakang header card */
+  padding: 10px; /* Memberikan padding pada header card */
+  border-top-left-radius: 20px; /* Memberikan sudut melengkung pada sisi kiri atas header card */
+  border-top-right-radius: 20px; /* Memberikan sudut melengkung pada sisi kanan atas header card */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Mengatur jenis font header card */
+}
+
+.card-header h2 {
+  margin: 0; /* Mengatur margin h2 pada header card */
+}
+
+.card-body {
+  padding: 20px; /* Memberikan padding pada body card */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Mengatur jenis font pada body card */
+}
+
+.card-body p {
+  margin-bottom: 10px; /* Memberikan margin bawah pada paragraf pada body card */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Mengatur jenis font pada paragraf pada body card */
+}
+
+.card-body ol {
+  padding-left: 20px; /* Memberikan padding kiri pada list ordered pada body card */
+}
+
+.card-body ol li {
+  margin-bottom: 5px; /* Memberikan margin bawah pada setiap item list ordered pada body card */
+}
+
+/* Content End */
+
+
+/* Footer */
+.container-footer{
+  display: flex; /* Menjadikan container-footer sebagai flex container */
+  justify-content: center; /* Mengatur konten footer agar terpusat secara horizontal */
+  align-items: center; /* Mengatur konten footer agar terpusat secara vertikal */
+  background-color: rgba(31, 4, 4, 0.141); /* Mengatur warna latar belakang dengan transparansi */
+  padding: 15px; /* Memberikan padding */
+  color: whitesmoke; /* Mengatur warna teks */
+}
+
+.h1{
+  font-style: italic; /* Mengatur gaya huruf italic */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Mengatur jenis font */
+}
+/* Footer End */
