@@ -16,7 +16,7 @@ function sweetAlert() {
                   Swal.showLoading(); // Menampilkan ikon loading
                   setTimeout(() => { // Arahkan ke halaman selanjutnya setelah beberapa waktu tertentu
                       window.location.href = "file:///C:/Users/Asus/OneDrive/Desktop/exercise_PDW1/page2/halaman.html"; // Arahkan ke halaman selanjutnya setelah 2.5 detik
-                  }, 2500); // Menggunakan setTimeout untuk menunggu 2.5 detik sebelum mengarahkan
+                  }, 2000); // Menggunakan setTimeout untuk menunggu 2.5 detik sebelum mengarahkan
               }
           });
       }
